@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #3C4737;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*navegacion*/
+nav {
+    color: whitesmoke;
+    background: #7D8C77;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.barranav {
+    width: 635px;
+}
+
+.barranav .cta1:hover {
+    background-color: whitesmoke;
+    color: #7D8C77;
+}
+
+.barranav a:hover {
+    color: #d97904;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.isotipo {
+    width: 63px;
+    display: block;
+}
+
+.logotipo {
+    font-weight: 250;
+    font-size: 25px;
+    margin-left: 10px;
+    display: block;
+    padding-top: 15px;
+}
+
+.flexlogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 636px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta1 {
+    width: 130px;
+    height: 30px;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    border-bottom: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.cta1:hover {
+    background-color: aliceblue;
+    color: #3C4737;
+    border: none;
+}
+/*fin del nav */
+/*comienza carrusel*/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.carrusel {
+    background-color: #eff1f1;
+    margin: 0 auto;
+   
+}
+
+/*fin de carrusel*/
+
+/*comienza el header*/
+header {
+    background-image: url(img/FOTO_HEADER_LAVANDA.png);
+    background-color: #eff1f1;
+    background-repeat: no-repeat;
+    background-size: 675px;
+    background-position: 100%;
+}
+
+.caja1 {
+    width: 680px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header h1 {
+    font-size: 87px;
+    font-weight: 300;
+}
+
+header p {
+    padding-right: 120px;
+}
+
+/*fin del header*/
+
+/*comienzo seccion hierbas */
+.containerhierbas {
+    width: 1200px;
+    height: 850px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.caja2 {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.caja2 h1 {
+    font-size: 49px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.cajamadre {
+    width: 1009px;
+    height: 431px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.cajamadre h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.cajamadre p {
+    font-size: 12px;
+    padding: 0 15px;
+    padding-bottom: 8px;
+}
+
+.cajacalendula {
+    width: 232px;
+    height: 490px;
+    background-color: #eff1f1;
+}
+
+.cta2 {
+    background-color: #7d8c77;
+    color: whitesmoke;
+    width: 150px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.cta2:hover {
+    background-color: #d97904;
+}
+
+.cajaromero {
+    width: 232px;
+    height: 490px;
+    background-color: #eff1f1;
+}
+
+.cajamanzanilla {
+    width: 232px;
+    height: 490px;
+    background-color: #eff1f1;
+}
+
+.cajarosa {
+    width: 232px;
+    height: 490px;
+    background-color: #eff1f1;
+}
+
+/*fin seccion hierbas*/
+/*comienzo comética*/
+
+.containercosmetica {
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.cosmetica {
+    background-color: #7D8C77;
+    color: whitesmoke;
+    padding: 40px 0px;
+}
+
+.cosmetica h1 {
+    font-size: 37px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.caja3 {
+    width: 581px;
+    height: 408px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.galeria1 {
+    width: 190px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Fin seccion comética*/
+
+/*comienzo seccion combo*/
+.containercombos {
+    margin: 0 auto;
+    width: 1200px;
+    height: 650px;
+}
+
+.containercombos h1 {
+    font-size: 49px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.caja4 {
+    width: 917px;
+    height: 347px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja4 h2 {
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.cajacombos {
+    width: 250px;
+    height: 377px;
+    background-color: #eff1f1;
+}
+
+/*Fin seccion Combos*/
+
+/*Comienzo sección formulario*/
+.containercontacto {
+
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.caja5 h1 {
+    font-size: 49px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.formulario {
+    margin: 0 auto;
+    ;
+    width: 620px;
+    padding: 15px;
+    padding-bottom: 80px;
+
+}
+
+.trama {
+
+    background-image: url(img/trama-formulario.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label,
+input,
+textarea {
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 5px;
+}
+
+button {
+    border: none;
+    background-color: #7d8c77;
+    color: whitesmoke;
+    width: 95px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: #3C4737;
+}
+
+.borrar {
+    background-color: #a63c4f;
+}
+
+.borrar:hover {
+    background-color: #d97904;
+    color: #eff1f1;
+}
+
+/*Fin Formulario*/
+footer {
+    height: 70px;
+    background-color: #7D8C77;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+/*Comienzo footer*/
+
+.flexboxfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexboxfooter p{
+    font-size: 12px;
+}
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.media {
+    width: 30px;
+}
+footer ul:hover{
+    color: #a63c4f;
+}
+footer a:hover{
+    color: #a63c4f;
+
+}
+/*Fin footer*/
